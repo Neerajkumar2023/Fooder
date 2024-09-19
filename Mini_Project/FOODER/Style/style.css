@@ -1,0 +1,439 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* margin-left: 5px; */
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    justify-content: center;
+    /* font */
+}
+body{
+    width: auto;
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column; */
+    /* background-image: url(daal_bg.avif); */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: #EDFDFB;
+}
+header{
+    height: 100px;
+    background-color: #273138;
+    color: white;
+    /* background-image: url(daal_bg.avif); */
+}
+nav{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+/* anchhor tag css */
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav_border{
+    border: 2px transparent;
+}
+.nav_border:hover{
+    transform: scale(1.2);
+    /* border: 2px solid white; */
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+
+/* Menu_css */
+
+/* .opt_group option{
+    border: none;
+    color: #273138;
+    background-color: #273138;
+}
+.menu{
+    border: none;
+    color: #273138;
+    background-color: #273138;
+} */
+
+/*  CART & index_login_css Start */
+.log_sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin-right: 60px;
+    gap: 40px;
+    
+}
+
+
+
+.cart:hover{
+    cursor: pointer;
+    
+   
+    transform: scale(1.2);
+}
+.sign_up:hover{
+    cursor: pointer;
+    
+   
+    transform: scale(1.2);
+}
+/*  CART & index_login_css END */
+
+.search{
+    display: flex;
+    height: 38px;
+    width: 195px;
+    font-weight: 900;
+    /* color: black;  */
+    /* background-color:white;  */
+    background-color: #FFAA33;
+    border-radius: 18px;
+}
+.search input{
+    /* border-radius: 18px; */
+    /* height: 43px; */
+    border-color: white;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+.search_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    border-radius: 18%;
+    color: black;
+    background-color:#FFAA33 ;
+}
+
+/* nav_CSS EnD */
+
+/* .border{
+    border: 2px transparent;
+} */
+
+/* sliding images css */
+.one{
+    margin-top: 4px;
+}
+.slide img{
+    height: 720px;
+}
+.order{
+    width: 150px;
+    height: 40px;
+    font-weight: 900;
+    color: white;
+    background-color: #FFAA33;
+    border-radius: 18px;
+    border-color:  #FFAA33;
+}
+.order:hover{
+    color: #FFAA33;
+    background-color: white;
+    border-color: white;
+}
+
+/* section two css */
+.two{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+   
+}
+.left{
+    height: 360px;
+    width: 730px;
+    display: flex;
+    justify-content: space-around;
+
+    /* align-items: center; */
+    
+    /* background-color:#36454F; */
+    background-color: #273138;
+    /* gap: 10px; */
+    border-radius: 18px;
+}
+.left:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    
+
+}
+.left img{
+    margin-top: 50px;
+    /* margin-left: 30px; */
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #FFAA33;
+}
+.offer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #EDFDFB;
+}
+.offer h1{
+    margin-top: 30px;
+    font-size: 70px;
+}
+.offer p{
+    margin-left: 0px;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+}
+.discount{
+    font-size: 90px;
+
+}
+.right{
+    height: 360px;
+    width: 730px;
+    display: flex;
+    justify-content: space-around;
+
+    /* align-items: center; */
+    
+    /* background-color:#36454F; */
+    background-color: #273138;
+    /* gap: 10px; */
+    border-radius: 18px;
+}
+.right:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+.right img{
+    margin-top: 50px;
+    /* margin-left: 30px; */
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #FFAA33;
+}
+
+/* section_3 CSS */
+
+.section_3 h1{
+    padding-top: 60px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Poppins', sans-serif; */
+}
+.section_3 h2{
+    padding-top: 60px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+.indian{
+    margin-top: -25px;
+    padding-top: 34px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.chola_puri{
+    background-color: #273138;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.chola_puri:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+.chola_puri img{
+    height: 230px;
+    width: 400px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 80px;
+}
+.sahi_paneer{
+    background-color: #273138;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.sahi_paneer:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+.sahi_paneer img{
+    height: 230px;
+    width: 400px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 80px;
+    
+}
+.dosa{
+    background-color: #273138;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.dosa:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+.dosa img{
+    height: 230px;
+    width: 400px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 80px;
+    
+}
+.detail_box{
+    height: 230px;
+    width: 400px;
+    color: white;
+    background-color: #273138;
+    text-align: center;
+}
+.detail_order{
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #273138;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.Rs{
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+/* Section 4 css */
+
+
+.about{
+    margin-top: 20px;
+    padding-top: 20px;
+    height: 100vh;
+    width: 100vw;
+    background-color: #222831;
+    /* background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%); */
+}
+.about_div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 190px;
+
+}
+/* .left_div{
+
+} */
+.left_div img{
+    padding-top: 70px;
+    height: 580px;
+}
+.right_div h1{
+    color: white;
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+.right_div p {
+    color: white;
+    font-size: 22px;
+    word-spacing: 5px;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+/* customer css */
+
+
+.customer{
+    background-color: #EDFDFB;
+    color: #222831;
+    
+  }
+  .customer img{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    /* border: 3px solid rgb(255, 115, 0); */
+    border:4px solid#222831;
+  }
+  .customer_review_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .middle_element{
+    /* margin-left: 40px; */
+    padding-left: 450px;
+  }
+
+  /* customer css end */
+
+  /* footer css start */
+
+  .footer_about{
+    background-color: #222831;
+    height: 500px;
+    color: white;
+  }
+  .footer{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .footer h1{
+    /* font-size: 60px; */
+    font-family: 'Dancing Script', cursive;
+  }
+  .footer_end{
+    padding: 20px;
+    margin: 20px;
+    /* display: flex;
+     justify-content: center;
+    align-items: center; */
+    text-align: center;
+    word-spacing: 2px;
+  }
+
+  /* section 4 css end */
